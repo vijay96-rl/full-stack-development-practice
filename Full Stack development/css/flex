@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex </title>
+</head>
+<style>
+    .container{
+        display: flex;
+        padding-left: 12px;
+        gap: 10px;
+        justify-content: flex-end;
+        padding: 20px;
+        flex-direction: row;
+        border-color: black ;
+        
+    }
+    .box{
+        width: 100px;
+        height: 100px;
+        
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    .containers{
+        display: flex;
+        justify-content: center;
+        gap:20px;
+        flex-grow: 1;
+        align-items: center;
+        
+
+    }
+    .box1{
+     
+        color: #483104;
+
+    }
+    .contains{
+        
+        display: felx;
+      
+        
+    }
+    .box2{
+        justify-content: center;
+    }
+   
+</style>
+<body>
+    <div class="container">
+        <div class="box">home</div>
+        <div class="box">about us</div>
+        <div  class="box">login</div>
+    </div>
+    <div class="containers">
+        <div class="box1"> <h1> welcome to our website   </h1></div>
+
+    </div>
+    <div class="contains"> 
+        <div class="box2"> <h2>this is our website with eco friendly</h2></div>
+    </div>
+    
+</body>
+</html>
