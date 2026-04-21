@@ -28,6 +28,16 @@
     }
     
   }
+let divs = document.getElementsByTagName("div")
+  for (element of divs){
+    element.innerHTML= element.innerHTML+"<p>you will placed in 4th year starting dont worry my child </p>"
+
+  }
+  let ps = document.getElementsByTagName("p")
+  for (element of ps){
+    element.innerHTML = element.innerHTML+"<b> vijay </b>"
+    
+  }
     
   
 </script>
