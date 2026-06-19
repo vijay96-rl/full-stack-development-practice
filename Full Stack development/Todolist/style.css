@@ -1,0 +1,61 @@
+#container{
+    width: 600px;
+    margin: 20px auto;
+    background-color: rgb(243, 239, 239);
+    
+}
+
+#header{
+    text-align: center;
+    background-color: rgb(81, 41, 3);
+    color: white;
+    padding: 40px;
+}
+
+#add{
+    
+    text-align: center;
+    padding: 20px;
+    width: 557px;
+
+    
+}
+
+#add input{
+    width: 500px;
+    height: 45px;
+
+}
+
+#add-button{
+    width: 600px;
+    height: 35px;
+}
+
+#button{
+    text-align: center;
+    background-color: rgb(71, 38, 2);
+    padding: 20px;
+    
+
+}
+
+#all, #active, #completed{
+    
+    background-color: rgba(31, 31, 30, 0.755);
+    border-radius: 20px;
+    margin: 5px;
+}
+#para{
+    border-radius: 10px;
+    width: 110px;
+    background-color: rgb(10, 11, 11);
+    text-align: center;
+    margin: auto;
+}
+#tasklist{
+      width: 500px;
+      margin: 20px auto;
+
+}
+
